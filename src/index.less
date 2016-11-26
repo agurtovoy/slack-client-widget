@@ -1,0 +1,39 @@
+@font-size-base: 16px;
+
+@brand-color-black: #545454;
+@brand-color-blue: #2684FF;
+@brand-color-red: #FF3E2C;
+@brand-color-purple: #6835FF;
+@brand-color-green: #00C140;
+@brand-color-primary: @brand-color-blue;
+
+@base-font: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@header-font: @base-font;
+
+html, body, button, input, select, textarea {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background-color: @brand-color-primary;
+    color: white;
+}
+
+#root {
+    position: relative;
+    margin: 4rem;
+    padding-bottom: 47%;
+    min-width: 70rem;
+    min-height: 40rem;
+    max-width: 90rem;
+}
+
+.slack-client-widget {
+    position: absolute;
+    filter: drop-shadow(0 0.7rem 1rem rgba(0, 0, 0, 0.2));
+    // Safari 7.1+, workaround for incorrect drop-shadow rendering
+    _::-webkit-full-page-media, _:future, :root & {
+        filter: drop-shadow(0 0.6rem 2.5rem rgba(0, 0, 0, 0.2));
+    }
+}
