@@ -1,0 +1,11 @@
+.default {
+    display: inline-block;
+    width: 0.75rem;
+    height: 0.75rem;
+    margin: 0.25rem;
+    border-radius: 50%;
+}
+
+.close         { background-color: #fc605c; }
+.minimize      { background-color: #fdbc40; }
+.fullscreen    { background-color: #34c749; }
