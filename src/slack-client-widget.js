@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 
 import MacOSWindowButtons from './components/macos-window-buttons';
+import TeamSwitcher from './components/team-switcher';
 
 import './slack-client-widget.less';
 
@@ -9,6 +10,7 @@ class SlackClientWidget extends Component {
         return (
             <div className="slack-client-widget">
                 <MacOSWindowButtons />
+                <TeamSwitcher />
             </div>
             );
     }
