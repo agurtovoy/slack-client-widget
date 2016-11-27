@@ -1,0 +1,6 @@
+.default {
+    flex: 1;
+    min-height: 100%;
+    background-color: white;
+    overflow: hidden;
+}
