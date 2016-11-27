@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './team-switcher.css';
+import styles from './team-icon.css';
 
-export default function TeamSwitcher( props ) {
+export default function TeamIcon( props ) {
     return (
         <div className={styles.default}>
         </div>

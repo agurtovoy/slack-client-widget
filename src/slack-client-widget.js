@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 import MacOSWindowButtons from './components/macos-window-buttons';
-import TeamSwitcher from './components/team-switcher';
+import TeamsSidebar from './containers/teams-sidebar';
 import TeamChatContainer from './containers/team-chat-container';
 
 import '@nextspark/webfont-lato-latin';
@@ -12,7 +12,7 @@ class SlackClientWidget extends Component {
         return (
             <div className="slack-client-widget">
                 <MacOSWindowButtons />
-                <TeamSwitcher />
+                <TeamsSidebar />
                 <TeamChatContainer />
             </div>
             );

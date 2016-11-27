@@ -1,0 +1,17 @@
+.default {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
+    margin: 0.45rem 0;
+}
+
+.shortcut {
+    font-family: 'Helvetica Nue', 'Arial', sans-serif;
+    font-size: 0.78rem;
+    font-weight: bold;
+    color: #767075;
+    padding: 0.3rem;
+    cursor: pointer;
+}
