@@ -4,6 +4,7 @@ import MacOSWindowButtons from './components/macos-window-buttons';
 import TeamSwitcher from './components/team-switcher';
 import TeamChatContainer from './containers/team-chat-container';
 
+import '@nextspark/webfont-lato-latin';
 import './slack-client-widget.less';
 
 class SlackClientWidget extends Component {
