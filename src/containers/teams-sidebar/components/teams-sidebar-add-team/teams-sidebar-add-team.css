@@ -1,0 +1,8 @@
+.default {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
+    margin: 0.45rem 0;
+}

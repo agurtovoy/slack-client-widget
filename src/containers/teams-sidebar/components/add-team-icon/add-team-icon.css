@@ -1,0 +1,13 @@
+.default {
+    width: 36px;
+    height: 36px;
+    border-radius: 7px;
+    background-image: url('./add-team-icon.svg');
+    opacity: .25;
+    cursor: pointer;
+    transition: opacity 0.07s;
+}
+
+.default:hover {
+    opacity: .45;
+}
