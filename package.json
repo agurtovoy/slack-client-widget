@@ -8,6 +8,8 @@
   "dependencies": {
     "@nextspark/webfont-lato-latin": "0.0.1",
     "classnames": "^2.2.5",
+    "font-family-system-ui": "0.0.1",
+    "lodash": "^4.17.2",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
     "suitcss-base": "^2.0.0"
