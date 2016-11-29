@@ -6,9 +6,10 @@ import fontStyle from 'font-family-system-ui';
 
 export default function TeamsSidebarEntry( props ) {
     const { team, shortcut, selected } = props;
+    const activity = selected ? {} : team.activity;
     return (
-        <div className={ cn( styles.default, { [styles.selected]: selected, [styles.unread]: !selected && team.activity.unread } ) }>
-            <TeamIcon icon={team.id} selected={selected}/>
+        <div className={ cn( styles.default, { [styles.selected]: selected, [styles.unread]: activity.unread } ) }>
+            <TeamIcon icon={team.id} selected={selected} mentions={activity.mentions}/>
             <div className={ cn( styles.shortcut, fontStyle['u-font-family-system-ui'] ) }>{shortcut}</div>
         </div>
     );

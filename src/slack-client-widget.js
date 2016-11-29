@@ -8,8 +8,8 @@ import '@nextspark/webfont-lato-latin';
 import './slack-client-widget.less';
 
 const teams = [
-    { id: 'team1', activity: { unread: true, mentions: 2 } },
-    { id: 'team2', activity: { unread: true } },
+    { id: 'team1', activity: { unread: true } },
+    { id: 'team2', activity: { unread: true, mentions: 2 } },
     { id: 'team3', activity: { mentions: 5 } }
     ];
 
@@ -20,7 +20,7 @@ class SlackClientWidget extends Component {
         return (
             <div className="slack-client-widget">
                 <MacOSWindowButtons />
-                <TeamsSidebar teams={teams} selected={teams[0].id}/>
+                <TeamsSidebar teams={teams} selected={teams[2].id}/>
                 <TeamChatContainer />
             </div>
             );

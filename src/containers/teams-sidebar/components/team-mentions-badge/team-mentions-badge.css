@@ -1,0 +1,16 @@
+.default {
+    position: absolute;
+    top: -10px;
+    right: -12px;
+    width: 19px;
+    height: 19px;
+    line-height: 20px;
+    margin: 2px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #fc6769;
+    box-shadow: 0 0 0 2px #261c25;
+    pointer-events: none;
+}
