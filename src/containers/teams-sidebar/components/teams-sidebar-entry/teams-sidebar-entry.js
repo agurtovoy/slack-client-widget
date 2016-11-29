@@ -8,7 +8,7 @@ export default function TeamsSidebarEntry( props ) {
     const { team, shortcut, selected } = props;
     return (
         <div className={ cn( styles.default, { [styles.selected]: selected, [styles.unread]: !selected && team.activity.unread } ) }>
-            <TeamIcon url={team.icon}/>
+            <TeamIcon icon={team.id} selected={selected}/>
             <div className={ cn( styles.shortcut, fontStyle['u-font-family-system-ui'] ) }>{shortcut}</div>
         </div>
     );

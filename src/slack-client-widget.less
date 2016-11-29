@@ -9,3 +9,14 @@
     overflow: hidden;
     backface-visibility: hidden;
 }
+
+.image-def( @url ) {
+    background-image: url( @url );
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image-team-icon.team1 { .image-def( './assets/team-icon-01.svg' ); }
+.image-team-icon.team2 { .image-def( './assets/team-icon-02.svg' ); }
+.image-team-icon.team3 { .image-def( './assets/team-icon-03.svg' ); }

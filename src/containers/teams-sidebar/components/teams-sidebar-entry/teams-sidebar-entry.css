@@ -35,14 +35,20 @@
     display: inline-block;
     font-size: 0.78rem;
     font-weight: 600;
-    color: #767075;
+    color: #7d777c;
     padding: 0.3rem;
     cursor: pointer;
     vertical-align: middle;
+    opacity: 0.79;
+}
+
+.selected .shortcut {
+    opacity: 1;
 }
 
 .shortcut::before {
     display: inline-block;
     content: "⌘";
-    /*text-shadow: #767075 0 0 0.1px;*/
+    font-size: 0.77rem;
+    text-shadow: currentColor 0 0 0.1px;
 }
