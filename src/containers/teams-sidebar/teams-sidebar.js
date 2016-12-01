@@ -4,8 +4,7 @@ import TeamsSidebarEntry from './components/teams-sidebar-entry';
 import TeamsSidebarAddTeam from './components/teams-sidebar-add-team';
 import styles from './teams-sidebar.css';
 
-export default function TeamSwitcher( props ) {
-    const { teams, selected } = props;
+export default function TeamSwitcher( { teams, selected } ) {
     return (
         <div className={styles.default}>
             { _.map( teams, ( team, i ) => <TeamsSidebarEntry

@@ -4,8 +4,7 @@ import TeamIcon from '../team-icon';
 import styles from './teams-sidebar-entry.css';
 import fontStyle from 'font-family-system-ui';
 
-export default function TeamsSidebarEntry( props ) {
-    const { team, shortcut, selected } = props;
+export default function TeamsSidebarEntry( { team, shortcut, selected } ) {
     const activity = selected ? {} : team.activity;
     return (
         <div className={ cn( styles.default, { [styles.selected]: selected, [styles.unread]: activity.unread } ) }>
