@@ -1,0 +1,19 @@
+.default {
+    font-weight: 900;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    max-width: 9.12rem;
+    display: flex;
+}
+
+.text {
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.arrow {
+    margin-top: 3px;
+    color: #a09a9f;
+}
