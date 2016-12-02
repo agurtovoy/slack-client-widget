@@ -1,0 +1,17 @@
+.default {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    line-height: 1.25rem;
+    padding: 0 1rem;
+    color: #ab9ba9;
+    cursor: pointer;
+    transition: color 0.07s;
+}
+
+.default:hover {
+    color: white;
+}
+
+.count {
+    opacity: 0.5;
+}
