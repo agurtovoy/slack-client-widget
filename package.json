@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "custom-react-scripts": "0.0.18"
+    "@nextspark/react-scripts": "0.0.18"
   },
   "dependencies": {
     "@nextspark/webfont-lato-latin": "0.0.1",
