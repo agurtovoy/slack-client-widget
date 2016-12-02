@@ -17,11 +17,12 @@ const teams = [
 class SlackClientWidget extends Component {
     render() {
         const currentTeam = teams[2];
+        const currentUser = { id: 'agurtovoy' }
         return (
             <div className="slack-client-widget">
                 <MacOSWindowButtons />
                 <TeamsSidebar teams={teams} selected={currentTeam.id}/>
-                <TeamChatContainer team={currentTeam}/>
+                <TeamChatContainer team={currentTeam} user={currentUser}/>
             </div>
             );
     }

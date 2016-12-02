@@ -1,0 +1,12 @@
+.default {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    margin: 0 0.1rem;
+    border-radius: 50%;
+}
+
+.active {
+    composes: default;
+    background-color: #38978D;
+}
