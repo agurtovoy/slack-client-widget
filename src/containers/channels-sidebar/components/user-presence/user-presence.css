@@ -2,10 +2,9 @@
     font-size: .875rem;
     margin: .1rem 0;
     max-width: 100%;
-    color: #ab9ba9;
-    transition: all .1s ease-out 0s;
 }
 
 .username {
     margin: 0 0.25rem;
+    pointer-events: none;
 }
