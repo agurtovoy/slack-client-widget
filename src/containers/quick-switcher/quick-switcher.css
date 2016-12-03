@@ -1,0 +1,13 @@
+.default {
+    position: relative;
+    width: 100%;
+    height: 4rem;
+    padding: 1.25rem 1rem 0;
+    color: #ab9ba9;
+    cursor: pointer;
+}
+
+.default:hover {
+    background: #3e313c;
+    color: white;
+}
