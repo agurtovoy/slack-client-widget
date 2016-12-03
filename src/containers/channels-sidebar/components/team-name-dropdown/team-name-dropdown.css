@@ -5,6 +5,7 @@
     max-width: 9.12rem;
     display: flex;
     pointer-events: none;
+    user-select: none;
 }
 
 .text {

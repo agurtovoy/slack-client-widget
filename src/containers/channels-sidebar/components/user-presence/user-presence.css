@@ -7,4 +7,5 @@
 .username {
     margin: 0 0.25rem;
     pointer-events: none;
+    user-select: none;
 }
