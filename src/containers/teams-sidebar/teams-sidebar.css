@@ -3,4 +3,5 @@
     padding-top: 1.5rem;
     height: 100%;
     width: 4.25rem;
+    user-select: none;
 }
