@@ -1,0 +1,21 @@
+.default {
+    display: block;
+    position: absolute;
+    top: 1.15rem;
+    right: 1rem;
+    padding: 0.4rem 0.1rem 0.1rem;
+    fill: #a09a9f;
+    opacity: .6;
+    transition: all 0.08s ease-in;
+}
+
+.default:hover {
+    fill: white;
+    opacity: 1;
+}
+
+.icon {
+    width: 1rem;
+    height: 1rem;
+    margin: auto;
+}

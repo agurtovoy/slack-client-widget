@@ -9,7 +9,7 @@ import './slack-client-widget.less';
 
 const teams = [
     { id: 'team1', name: 'Team 1', activity: { unread: true } },
-    { id: 'team2', name: 'Team 2', activity: { unread: true, mentions: 2 } },
+    { id: 'team2', name: 'TechCorridor.io', activity: { unread: true, mentions: 2 } },
     { id: 'team3', name: 'Next Spark Community', activity: { mentions: 5 } }
     ];
 

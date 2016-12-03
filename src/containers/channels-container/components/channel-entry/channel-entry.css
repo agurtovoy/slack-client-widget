@@ -9,6 +9,14 @@
     cursor: pointer;
 }
 
+.icon {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    vertical-align: baseline;
+    margin: 0;
+}
+
 .name {
     display: block;
     color: #ab9ba9;
