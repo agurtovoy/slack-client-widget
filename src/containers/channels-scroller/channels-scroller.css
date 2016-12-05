@@ -1,4 +1,5 @@
 .default {
+    flex: 1;
     border-right: .25rem solid transparent;
     overflow-y: scroll;
     overflow-x: hidden;
