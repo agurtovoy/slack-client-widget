@@ -1,12 +1,9 @@
 .default {
-    position: relative;
+    display: flex;
+    align-items: center;
     width: 100%;
     height: 4rem;
-    padding: 1.25rem 1rem;
-    font-size: .94rem;
-    font-weight: bold;
-    line-height: 1.4rem;
-    text-align: center;
+    padding: 0 1rem;
     color: #ab9ba9;
     cursor: pointer;
 }
@@ -16,11 +13,20 @@
     color: white;
 }
 
+.container {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: .94rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+}
 
 .icon {
     position: absolute;
     width: 1.5rem;
     height: 1.5rem;
+    margin: 0.05rem 0;
     fill: #ab9ba9;
     left: calc( 50% - 0.75rem );
     transition: left .1s ease-in-out 0s;
@@ -28,7 +34,7 @@
 
 .default:hover .icon {
     fill: white;
-    left: 1rem;
+    left: 0;
     transition: left .25s ease-in-out 0s;
 }
 
@@ -45,7 +51,7 @@
 
 .shortcut {
     position: absolute;
-    right: 1rem;
+    right: 0;
     opacity: 0;
     transition: opacity .0s cubic-bezier(.16,.85,.5,1) 0s;
 }
