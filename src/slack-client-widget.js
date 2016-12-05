@@ -33,17 +33,21 @@ const channels = [
     { id: '17', name: 'admin-prior-art', private: true }
     ];
 
+const ims = [
+    { id: '1', user: 'slackbot' },
+    { id: '2', user: 'agurtovoy' },
+    { id: '3', user: 'blong777' }
+    ];
 
 class SlackClientWidget extends Component {
     render() {
         const currentTeam = teams[2];
-        currentTeam.channels = channels;
         const currentUser = { id: 'agurtovoy' }
         return (
             <div className="slack-client-widget">
                 <MacOSWindowButtons />
                 <TeamsSidebar teams={teams} selected={currentTeam.id}/>
-                <TeamChatContainer team={currentTeam} user={currentUser}/>
+                <TeamChatContainer team={currentTeam} user={currentUser} channels={channels} ims={ims}/>
             </div>
             );
     }
