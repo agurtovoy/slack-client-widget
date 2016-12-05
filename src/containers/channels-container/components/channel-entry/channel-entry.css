@@ -1,20 +1,12 @@
 .default {
     position: relative;
-    line-height: 1.5rem;
     height: 1.5rem;
+    line-height: 1.2rem;
     margin: 0;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
     cursor: pointer;
-}
-
-.icon {
-    display: inline-block;
-    height: 1em;
-    width: 1em;
-    vertical-align: baseline;
-    margin: 0;
 }
 
 .name {
@@ -30,4 +22,34 @@
 
 .name:hover {
     background-color: #3e313c;
+}
+
+.active {
+    composes: name;
+    color: white;
+    background-color: #4c9689;
+}
+
+.active:hover {
+    background-color: #4c9689;
+}
+
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    opacity: .5;
+    margin: 0;
+}
+
+.active .icon {
+    fill: #b2d5c9;
+    opacity: 1;
+}
+
+
+.text {
+    vertical-align: middle;
 }
