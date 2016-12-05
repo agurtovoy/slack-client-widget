@@ -4,12 +4,12 @@ import ChannelsContainer from '../channels-container';
 import QuickSwitcher from '../quick-switcher';
 import styles from './channels-sidebar.css';
 
-export default function ChannelsSidebar( { team, user } ) {
+export default function ChannelsSidebar( { ...props } ) {
     return (
         <div className={styles.default}>
-            <ChannelsTeamMenu team={team} user={user} />
-            <ChannelsContainer team={team} user={user} />
-            <QuickSwitcher team={team} user={user} />
+            <ChannelsTeamMenu { ...props } />
+            <ChannelsContainer { ...props } />
+            <QuickSwitcher { ...props } />
         </div>
     );
 }

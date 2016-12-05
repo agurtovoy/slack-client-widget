@@ -3,8 +3,8 @@ import ChannelList from '../channel-list';
 import SectionHeader from '../section-header';
 import styles from './channels.css';
 
-export default ( {...props} ) =>
+export default ( { channels, user } ) =>
     <div className={styles.default}>
-        <SectionHeader title='Channels' count='17' />
-        <ChannelList {...props}/>
+        <SectionHeader title='Channels' count={channels.length} />
+        <ChannelList channels={channels} />
     </div>;

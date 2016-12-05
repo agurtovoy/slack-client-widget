@@ -5,6 +5,6 @@ import styles from './channels-container.css';
 
 export default ( { team, user } ) =>
     <div className={styles.default}>
-        <Channels team={team}/>
-        <DirectMessages />
+        <Channels channels={team.channels} user={user} />
+        <DirectMessages user={user} />
     </div>;
