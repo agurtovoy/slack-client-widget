@@ -28,7 +28,9 @@ const channels = [
     { id: '12', name: 'quote-of-the-day' },
     { id: '13', name: 'reading' },
     { id: '14', name: 'shamelessplug' },
-    { id: '15', name: 'tools' }
+    { id: '15', name: 'tools' },
+    { id: '16', name: 'admin', private: true },
+    { id: '17', name: 'admin-prior-art', private: true }
     ];
 
 
