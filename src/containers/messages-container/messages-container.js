@@ -4,12 +4,9 @@ import MessagesScroller from './containers/messages-scroller';
 import MessagesFooter from './containers/messages-footer';
 import styles from './messages-container.css';
 
-export default function MessagesContainer() {
-    return (
-        <div className={styles.default}>
-            <MessagesHeader />
-            <MessagesScroller />
-            <MessagesFooter />
-        </div>
-    );
-}
+export default ( { ...props } ) =>
+    <div className={styles.default}>
+        <MessagesHeader { ...props } />
+        <MessagesScroller { ...props } />
+        <MessagesFooter { ...props } />
+    </div>;
