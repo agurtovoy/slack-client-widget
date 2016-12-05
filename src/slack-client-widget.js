@@ -20,7 +20,7 @@ const channels = [
     { id: '4', name: 'creativemornings' },
     { id: '5', name: 'general' },
     { id: '6', name: 'humblebrag' },
-    { id: '7', name: 'hunt-of-the-day', active: true },
+    { id: '7', name: 'hunt-of-the-day' },
     { id: '8', name: 'inhouse-creative' },
     { id: '9', name: 'inhouse-marketing' },
     { id: '10', name: 'introductions' },
