@@ -5,6 +5,9 @@ import ChannelHashIcon from './assets/channel-hash.inline.svg';
 import ChannelLockIcon from './assets/channel-lock.inline.svg';
 import NewChannelIcon from './assets/new-channel.inline.svg';
 import NewUploadIcon from './assets/new-upload.inline.svg';
+import EditIcon from './assets/edit.inline.svg';
+import PlusIcon from './assets/plus.inline.svg';
+import UserIcon from './assets/user.inline.svg';
 
 export {
     BellIcon,
@@ -13,5 +16,8 @@ export {
     ChannelHashIcon,
     ChannelLockIcon,
     NewChannelIcon,
-    NewUploadIcon
+    NewUploadIcon,
+    EditIcon,
+    PlusIcon,
+    UserIcon
     };
