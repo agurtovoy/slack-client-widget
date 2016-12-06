@@ -1,0 +1,52 @@
+.default {
+    width: 20rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0.73rem 0.58rem 0;
+}
+
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .25rem;
+    fill: #717274;
+    width: 2.125rem;
+    height: 2rem;
+    margin: 0 0.03rem;
+}
+
+ .icon svg {
+     height: 1.125rem;
+ }
+
+
+.more {
+    composes: icon;
+    width: 1.375rem;
+}
+
+.more:hover {
+    fill: #3aa3e3;
+}
+
+
+.stars {
+    composes: icon;
+}
+
+.stars:hover {
+    fill: #fc0;
+}
+
+
+.mentions {
+    composes: icon;
+}
+
+.mentions:hover {
+    fill: #eb4d5c;
+}

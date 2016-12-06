@@ -8,6 +8,9 @@ import NewUploadIcon from './assets/new-upload.inline.svg';
 import EditIcon from './assets/edit.inline.svg';
 import PlusIcon from './assets/plus.inline.svg';
 import UserIcon from './assets/user.inline.svg';
+import VerticalEllipsesIcon from './assets/vertical-ellipses.inline.svg';
+import StarIcon from './assets/star.inline.svg';
+import MentionIcon from './assets/mention.inline.svg';
 
 export {
     BellIcon,
@@ -19,5 +22,8 @@ export {
     NewUploadIcon,
     EditIcon,
     PlusIcon,
-    UserIcon
+    UserIcon,
+    VerticalEllipsesIcon,
+    StarIcon,
+    MentionIcon
     };
