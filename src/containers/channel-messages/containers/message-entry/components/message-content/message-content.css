@@ -1,0 +1,24 @@
+.default {
+}
+
+.header {
+    display: flex;
+    align-items: baseline;
+}
+
+.username {
+    margin-right: .25rem;
+    font-weight: 900;
+    line-height: 1.125rem;
+    color: #2c2d30;
+}
+
+.body {
+    margin-top: -.01rem;
+}
+
+.automated {
+    composes: body;
+    color: #9e9ea6;
+    font-style: italic;
+}

@@ -1,0 +1,10 @@
+.default {
+    display: inline-block;
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: .2rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://avatars.slack-edge.com/2016-10-31/98684407860_f9424ca8709e70875623_72.png);
+    cursor: pointer;
+}
