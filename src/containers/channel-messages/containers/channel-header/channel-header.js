@@ -1,12 +1,10 @@
 import React from 'react';
+import ChannelTitleInfo from './components/channel-title-info';
+import ChannelActions from './components/channel-actions';
 import styles from './channel-header.css';
 
 export default ( { channel } ) =>
     <div className={styles.default}>
-        <h2 className={styles.title}>#{channel.name}</h2>
-        <div className={styles.info}>
-            19 memebers
-            <span className={styles.divider}>|</span>
-            <span className={styles.topic}>Add a topic</span>
-        </div>
+        <ChannelTitleInfo channel={channel} />
+        <ChannelActions channel={channel} />
     </div>;

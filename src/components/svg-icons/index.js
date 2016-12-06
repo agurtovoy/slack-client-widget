@@ -11,6 +11,10 @@ import UserIcon from './assets/user.inline.svg';
 import VerticalEllipsesIcon from './assets/vertical-ellipses.inline.svg';
 import StarIcon from './assets/star.inline.svg';
 import MentionIcon from './assets/mention.inline.svg';
+import SidebarIcon from './assets/sidebar.inline.svg';
+import GearIcon from './assets/gear.inline.svg';
+import PhoneIcon from './assets/phone.inline.svg';
+
 
 export {
     BellIcon,
@@ -25,5 +29,8 @@ export {
     UserIcon,
     VerticalEllipsesIcon,
     StarIcon,
-    MentionIcon
+    MentionIcon,
+    SidebarIcon,
+    GearIcon,
+    PhoneIcon
     };
