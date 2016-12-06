@@ -7,7 +7,7 @@ import styles from './channel-messages.css';
 const messages = [
     {
         "type": "message",
-        "ts": "1358546515.000008",
+        "ts": "9:42 PM",
         "user": "agurtovoy",
         "text": "joined #hunt-of-the-day",
         "automated": true

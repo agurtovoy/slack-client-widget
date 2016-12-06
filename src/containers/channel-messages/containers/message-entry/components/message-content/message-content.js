@@ -6,6 +6,7 @@ export default ( { message } ) =>
     <div className={styles.default}>
         <div className={styles.header}>
             <a className={styles.username}>{message.user}</a>
+            <a className={styles.timestamp}>{message.ts}</a>
         </div>
         <div className={ styles[ message.automated ? 'automated' : 'body' ] }>{message.text}</div>
     </div>;
