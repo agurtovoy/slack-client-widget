@@ -7,6 +7,7 @@ export default ( { channels, user, activeChannel } ) =>
     <ul className={styles.default}>
         { _.map( channels, ( channel ) =>
             <ChannelEntry
+                key={channel.id}
                 channel={channel}
                 active={channel === activeChannel}
                 /> ) }

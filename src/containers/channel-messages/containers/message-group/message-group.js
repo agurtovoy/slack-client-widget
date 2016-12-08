@@ -8,7 +8,7 @@ export default ( { messages } ) =>
         <div className={styles.divider}><span>October 31st</span></div>
         <div className={styles.messages}>
             { _.map( messages, ( message ) =>
-                <MessageEntry message={message} />
+                <MessageEntry key={message.user + message.ts} message={message} />
                 ) }
         </div>
     </div>;
