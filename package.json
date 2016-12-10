@@ -10,9 +10,12 @@
     "@nextspark/webfont-lato-latin": "^0.0.1",
     "classnames": "^2.2.5",
     "font-family-system-ui": "^0.0.1",
+    "isomorphic-fetch": "^2.2.1",
     "lodash": "^4.17.2",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
+    "react-redux": "^4.4.6",
+    "redux": "^3.6.0",
     "suitcss-base": "^2.0.0"
   },
   "scripts": {
